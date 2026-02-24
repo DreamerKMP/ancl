@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# MediaPipe Models
+*.task
+
+# Data & Results (Local only)
+tg_movies/
+analyzed_movies/
+specific_results/
+*.mp4
+
+# OS
+.DS_Store
