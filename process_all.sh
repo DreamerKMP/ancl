@@ -17,6 +17,6 @@ fi
 echo "Processing videos from $INPUT_DIR to $OUTPUT_DIR..."
 
 # The python script now handles the loop internally via --input-dir
-./venv/bin/python3 analyze_bouldering.py --input-dir "$INPUT_DIR" --output-dir "$OUTPUT_DIR"
+./venv/bin/python3 analyze_bouldering.py --input-dir "$INPUT_DIR" --output-dir "$OUTPUT_DIR" "$@"
 
 echo "All videos processed. Check '$OUTPUT_DIR' folder."

@@ -14,3 +14,7 @@ specific_results/
 
 # OS
 .DS_Store
+
+# AI Context files (memory)
+GEMINI.md
+CLAUDE.md
